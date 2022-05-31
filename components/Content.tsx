@@ -101,7 +101,7 @@ export default function Content() {
           id='charts'
           className='flex flex-col justify-center items-center py-10'
         >
-          <div
+          {/*<div
             id='bar'
             className='w-3/4 flex flex-col justify-center items-center'
           >
@@ -109,7 +109,7 @@ export default function Content() {
             <div className='w-3/4'>
               <Line data={data} />*
             </div>
-          </div>
+          </div>*/}
           <div id='circle'>
             <h2 className='font-bold text-6xl py-4'>Customers Arrived</h2>
             <div>
